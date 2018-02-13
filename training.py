@@ -17,7 +17,7 @@ from tensorflow.python.ops import math_ops
 from tensorflow.python.ops import nn
 from tensorflow.python.ops import variable_scope
 
-
+from utils import load_data
 
 def spatial_softmax(features,
                     temperature=None,
